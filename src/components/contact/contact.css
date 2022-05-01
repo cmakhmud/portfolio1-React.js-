@@ -1,0 +1,55 @@
+.contact{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.c-wrapper{
+    padding: 50px;
+    display: flex;
+}
+.c-right{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.c-left{
+    flex: 1;
+}
+.c-left-line{
+    height: 100%;
+    width: 20px;
+    background-color: #59b256;
+    position: absolute;
+}
+.c-left-info{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.c-left-text{
+    font-weight: bolder;
+    font-size: 70px;
+}
+.c-left-info-icon{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+.c-left-info-icon-size{
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px;
+}
+.halfText{
+    font-weight: bolder;
+}
+.contact-submit{
+    width: 100px;
+    height: 50px;
+    background-color: #59b256;
+    color: white;
+}

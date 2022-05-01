@@ -1,0 +1,10 @@
+.c-right-form{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-input{
+    width: 50%;
+    height:50px;
+}

@@ -1,0 +1,33 @@
+.card{
+    height: 100%;
+    margin: 20px;
+}
+.cardSize{
+    height: 400px;
+}
+.cardImgSize{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.cardName{
+    font-weight: bolder;
+}
+.cardButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cardText{
+    text-align: justify;
+}
+.cardCol{
+    height: 100%;
+    margin: 20px;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+}
+.cardCol:hover{
+    transform: scale(1.01);
+}
+

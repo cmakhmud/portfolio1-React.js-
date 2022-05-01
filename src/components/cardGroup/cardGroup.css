@@ -1,0 +1,20 @@
+.cardGroup{
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin: 20px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+}
+.headerTitle{
+    font-size: 50px;
+}
